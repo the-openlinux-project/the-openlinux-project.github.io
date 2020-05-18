@@ -7,3 +7,7 @@ visit [the-openlinux-project.github.io/](https://the-openlinux-project.github.io
 ## About
 
 "TheOpenLinux"
+
+## License
+
+- Unknown
