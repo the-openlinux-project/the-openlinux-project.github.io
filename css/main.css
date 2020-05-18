@@ -1,41 +1,54 @@
 html {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 body {
-
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 13pt;
-    background-color: antiquewhite;
-    padding: 0px;
-    margin: 4px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13pt;
+  background-color: antiquewhite;
+  padding: 0px;
+  margin: 4px;
 }
-.root {}
+.root {
+}
 .head {
-    align-content: center;
-    text-align: center;
-    background-color: purple;
-    color: cornsilk;
-    padding: 14px;
+  align-content: center;
+  text-align: center;
+  background-color: rgb(61, 59, 59);
+  color: cornsilk;
+  padding: 5px;
+}
+.head-title {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 20em;
 }
 h1#title {
+  padding-left: 2rem;
+  color: #3ebcf8;
+}
+div#nav-head a {
+  color: #3ebcf8;
 }
 #center {
-    text-align: center;
+  text-align: center;
 }
 
 a {
-    font-style: oblique;
-    font-weight: bold;
-    text-decoration: none;
-    cursor: pointer;
-    color: cornsilk;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  color: cornsilk;
 }
 
 .copyright {
-    font-size: 8pt;
-    text-align: right;
-    padding-bottom: 10px;
-    color: grey;
+  font-size: 8pt;
+  text-align: right;
+  padding-bottom: 10px;
+  color: grey;
 }
